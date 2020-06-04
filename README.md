@@ -1,54 +1,28 @@
-# Description
+## *tinkl.it* PrestaShop Module Payment Gateway
 
-Bitcoin payment plugin for PrestaShop for Tinkl.it
+Bitcoin gateway to accept bitcoin at PrestaShop store with *tinkl.it* API.
 
+Read the plugin installation instructions below to get started with *tinkl.it* payment gateway on your PrestaShop store.
 
-## Quick Start Guide
+**Plugin is compatible with Prestashop 1.6 or greater version**
 
-Modify config.php properly (default is using production).
-Install the module from prestashop admin and configure it
-with client_id and token from a brand new terminal.
+## Install
 
+Sign up for an *tinkl.it* account at <https://tinkl.it>.
 
-# Support
+Create new API terminal type **APP** from your dashboard and activate it.
 
-## Tinkl.it Support
-
-* info@tinkl.it
-
-## PrestaShop Support
-
-* [Homepage](http://www.prestashop.com)
-* [Documentation](http://doc.prestashop.com/)
-* [Support Forums](http://www.prestashop.com/forums/)
+Visit *tinkl.it* API Documentation (https://api.tinkl.it/doc/).
 
 
-# Contribute
+### via PrestaShop FTP Uploader
 
-To contribute to this project, please fork and submit a pull request.
+1. Download [prestashop-plugin.zip]
 
+2. Go to your PrestaShop admin panel » **Modules** » **Module Manager**.
 
-# License
+3. Click **Upload a module**, then click **Select file**, find the file you just downloaded, select it and click **Open**.
 
-The MIT License (MIT)
+4. When the installation is completed, click **Configure**.
 
-Copyright (c) 2011-2015 Bitpay
-Copyright (c) 2015 Tinkl.it
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in
-all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-THE SOFTWARE.
+4. In the **Configure Setting** tab of the *tinkl.it* module enter your [API credentials](https://api.tinkl.it/doc/) generated  (*CLIENT_ID | TOKEN*) and click **Save**.
