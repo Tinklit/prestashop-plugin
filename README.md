@@ -1,6 +1,6 @@
 ## *tinkl.it* PrestaShop Module Payment Gateway
 
-Bitcoin gateway to accept bitcoin at PrestaShop store with *tinkl.it* API.
+Bitcoin & Lightning Network gateway to accept bitcoin at PrestaShop store with *tinkl.it* API.
 
 Read the plugin installation instructions below to get started with *tinkl.it* payment gateway on your PrestaShop store.
 

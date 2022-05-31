@@ -4,7 +4,7 @@
  *
  * The MIT License (MIT)
  *
- * Copyright (c) 2020 Tinklit
+ * Copyright (c) 2022 Tinklit
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy of
  * this software and associated documentation files (the "Software"), to deal in
@@ -24,7 +24,7 @@
  * IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  *
  * @author    Tinklit <info@tinkl.it>
- * @copyright 2020 Tinklit
+ * @copyright 2022 Tinkl.it
  * @license   https://github.com/Tinklit/tinkl-it-prestashop-payment-gateway/blob/master/LICENSE  The MIT License (MIT)
  */
 
@@ -48,7 +48,7 @@ class Tinklit extends PaymentModule
     {
         $this->name = 'tinklit';
         $this->tab = 'payments_gateways';
-        $this->version = '1.0.0';
+        $this->version = '1.1.0';
         $this->author = 'tinkl.it';
         $this->is_eu_compatible = 1;
         $this->controllers = array('payment', 'redirect', 'callback', 'cancel');
@@ -79,8 +79,8 @@ class Tinklit extends PaymentModule
 
         parent::__construct();
 
-        $this->displayName = $this->l('Accept Bitcoin with tinkl.it');
-        $this->description = $this->l('Accept Bitcoin as a payment method with tinkl.it');
+        $this->displayName = $this->l('Accept Bitcoin & Lightning Network with tinkl.it');
+        $this->description = $this->l('Accept Bitcoin & Lightning Network as a payment method with tinkl.it');
         $this->confirmUninstall = $this->l('Are you sure you want to delete your details?');
 
         if (!isset($this->client_id)
@@ -369,7 +369,7 @@ class Tinklit extends PaymentModule
         }
 
         $newOption = new PrestaShop\PrestaShop\Core\Payment\PaymentOption();
-        $newOption->setCallToActionText('Bitcoin with tinkl.it')
+        $newOption->setCallToActionText('Bitcoin & Lightning Network with tinkl.it')
             ->setAction($this->context->link->getModuleLink($this->name, 'redirect', array(), true))
             ->setAdditionalInformation(
                 $this->context->smarty->fetch('module:tinklit/views/templates/hook/tinklit_intro.tpl')
@@ -401,7 +401,7 @@ class Tinklit extends PaymentModule
         $fields_form = array(
             'form' => array(
                 'legend' => array(
-                    'title' => $this->l('Accept Bitcoin with tinkl.it'),
+                    'title' => $this->l('Accept Bitcoin  & Lightning Network with tinkl.it'),
                     'icon' => 'icon-bitcoin',
                 ),
                 'input' => array(
@@ -427,7 +427,9 @@ class Tinklit extends PaymentModule
                             '
                                                 To test on staging.tinkl.it, turn Test Mode “On”.
                                                 Please note, for Test Mode you must create a separate account
-                                                on staging.tinkl.it and generate API credentials there.'
+                                                on staging.tinkl.it and generate new pos for ecommerce.
+                                                CLIENT ID and TOKEN generated on tinkl.it are "Live" credentials
+                                                and will not work for "Test" mode.'
                         ),
                         'required' => true,
                         'options' => array(

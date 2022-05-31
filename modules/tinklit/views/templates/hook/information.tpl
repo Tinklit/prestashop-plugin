@@ -3,7 +3,7 @@
 *
 * The MIT License (MIT)
 *
-* Copyright (c) 2020 Tinklit
+* Copyright (c) 2022 Tinkl.it
 *
 * Permission is hereby granted, free of charge, to any person obtaining a copy of
 * this software and associated documentation files (the "Software"), to deal in
@@ -23,7 +23,7 @@
 * IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 *
 *  @author    Tinklit <info@tinkl.it>
-*  @copyright 2020 Tinklit
+*  @copyright 2022 Tinkl.it
 *  @license   https://github.com/Tinklit/tinkl-it-prestashop-payment-gateway/blob/master/LICENSE  The MIT License (MIT)
 *}
 <div class="tab">
@@ -36,11 +36,11 @@
 	<div class="wrapper">
 	  <img src="../modules/tinklit/views/img/invoice.png" style="float:right;"/>
 	  <h2 class="tinklit-information-header">
-      {l s='Accept Bitcoin on your PrestaShop store with tinkl.it' mod='tinklit'}
+      {l s='Accept Bitcoin & Lightning Network on your PrestaShop store with tinkl.it' mod='tinklit'}
     </h2><br/>
 	  <strong>{l s='What is tinkl.it?' mod='tinklit'}</strong> <br/>
 	  <p>
-      {l s='tinkl.it is a bitcoin payment processor for merchants. Easily accepting bitcoin and get paid in EURO directly to your bank account.' mod='tinklit'}
+      {l s='tinkl.it is a bitcoin payment processor for merchants. Easily accepting Bitcoin & Lightning Network and get paid in EURO directly to your bank account.' mod='tinklit'}
     </p><br/>
 	  <strong>{l s='Getting started' mod='tinklit'}</strong><br/>
 	  <p>
@@ -56,7 +56,7 @@
 	  </p>
 	  <img src="../modules/tinklit/logo.png" style="float:right;"/>
 	  <p class="sign-up"><br/>
-	  	<a href="https://tinkl.it/it/users/sign_up" class="sign-up-button">{l s='Sign up on tinkl.it' mod='tinklit'}</a>
+	  	<a href="https://tinkl.it/register" class="sign-up-button">{l s='Sign up on tinkl.it' mod='tinklit'}</a>
 	  </p><br/>
 	  <strong>{l s='Features' mod='tinklit'}</strong>
 	  <p>
@@ -64,6 +64,8 @@
 	  		<li>{l s='The gateway is fully automatic - set and forget it.' mod='tinklit'}</li>
 	  		<li>{l s='Payment amount is calculated using real-time exchange rates' mod='tinklit'}</li>
 	  		<li>{l s='Your customers can pay with Bitcoin at checkout, while your payouts are in euros currency.' mod='tinklit'}</li>
+	  		<li>{l s='Supports traditional on-chain transactions using the new native SegWit addresses (bech32)' mod='tinklit'}</li>
+	  		<li>{l s='Supports Lightning Network payments.' mod='tinklit'}</li>
 	  		<li>
           <a href="https://staging.tinkl.it" target="_blank">
             {l s='Staging environment' mod='tinklit'}

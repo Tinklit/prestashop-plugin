@@ -3,7 +3,7 @@ namespace Tinklit;
 
 class Tinklit
 {
-    const VERSION           = '1.2.3';
+    const VERSION           = '1.3.1';
     const USER_AGENT_ORIGIN = 'tinkl.it PHP Library';
 
     public static $client_id  = '';

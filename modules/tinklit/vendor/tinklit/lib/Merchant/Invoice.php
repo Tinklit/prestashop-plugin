@@ -3,8 +3,8 @@ namespace Tinklit\Merchant;
 
 use Tinklit\Tinklit;
 use Tinklit\Merchant;
-use Tinklit\InvoiceIsNotValid;
-use Tinklit\InvoiceNotFound;
+use Tinklit\NotAvailable;
+use Tinklit\RecordNotFound;
 
 class Invoice extends Merchant
 {
@@ -29,7 +29,7 @@ class Invoice extends Merchant
     {
         try {
             return self::findOrFail($guid, $options, $authentication);
-        } catch (InvoiceNotFound $e) {
+        } catch (RecordNotFound $e) {
             return false;
         }
     }
@@ -45,7 +45,7 @@ class Invoice extends Merchant
     {
         try {
             return self::createOrFail($params, $options, $authentication);
-        } catch (InvoiceIsNotValid $e) {
+        } catch (NotAvailable $e) {
             return false;
         }
     }

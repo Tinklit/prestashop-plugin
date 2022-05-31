@@ -4,7 +4,7 @@
 *
 * The MIT License (MIT)
 *
-* Copyright (c) 2020 Tinklit
+* Copyright (c) 2022 Tinkl.it
 *
 * Permission is hereby granted, free of charge, to any person obtaining a copy of
 * this software and associated documentation files (the "Software"), to deal in
@@ -24,7 +24,7 @@
 * IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 *
 *  @author    Tinklit <info@tinkl.it>
-*  @copyright 2020 Tinklit
+*  @copyright 2022 Tinkl.it
 *  @license   https://github.com/Tinklit/tinkl-it-prestashop-payment-gateway/blob/master/LICENSE  The MIT License (MIT)
 */
 
