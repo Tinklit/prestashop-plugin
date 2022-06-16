@@ -6,14 +6,11 @@ Read the plugin installation instructions below to get started with *tinkl.it* p
 
 **Plugin is compatible with Prestashop 1.6 or greater version**
 
-## Install
+## Install (english)
 
 Sign up for an *tinkl.it* account at <https://tinkl.it>.
 
-Create new API terminal type **APP** from your dashboard and activate it.
-
-Visit *tinkl.it* API Documentation (https://api.tinkl.it/doc/).
-
+Create new API terminal category **Prestashop** from your Pos / Gateway section on *tinkl.i*.
 
 ### via PrestaShop FTP Uploader
 
@@ -25,4 +22,22 @@ Visit *tinkl.it* API Documentation (https://api.tinkl.it/doc/).
 
 4. When the installation is completed, click **Configure**.
 
-4. In the **Configure Setting** tab of the *tinkl.it* module enter your [API credentials](https://api.tinkl.it/doc/) generated  (*CLIENT_ID | TOKEN*) and click **Save**.
+5. In the **Configure Setting** tab of the *tinkl.it* module enter your CLIENT_ID and TOKEN, you can find them in Pos / Gateway section on *tinkl.it* and click **Save**.
+
+## Installazione (italiano)
+
+Crea un account su *tinkl.it*, clicca qui <https://tinkl.it>.
+
+Crea un nuovo temrinale con categoria **Prestashop** dalla sezione Pos / Gateway su *tinkl.i*.
+
+### tramite PrestaShop
+
+1. Scarica [prestashop-plugin.zip]
+
+2. Vai nel pannello di amministrazione di PrestaShop » **Moduli** » **Gestione Moduli**.
+
+3. Clicca **Carica un modulo**, poi clicca **Seleziona file**, trova il file che hai appena scaricato, selezionalo e clicca **Apri**.
+
+4. Quando l'installazione è completata, clicca **Configura**.
+
+5. Clicca la tab **Configura Impostazioni** del modulo *tinkl.it* ed inserisci CLIENT_ID e TOKEN del terminale che hai creato nella sezione Pos / Gateway su *tinkl.it* e clicca **Salva**.
