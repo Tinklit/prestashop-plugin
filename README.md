@@ -10,7 +10,7 @@ Read the plugin installation instructions below to get started with *tinkl.it* p
 
 Sign up for an *tinkl.it* account at <https://tinkl.it>.
 
-Create new API terminal category **Prestashop** from your Pos / Gateway section on *tinkl.i*.
+Create new API terminal category **Prestashop** from your Pos / Gateway section on *tinkl.it*.
 
 ### via PrestaShop FTP Uploader
 
@@ -28,7 +28,7 @@ Create new API terminal category **Prestashop** from your Pos / Gateway section 
 
 Crea un account su *tinkl.it*, clicca qui <https://tinkl.it>.
 
-Crea un nuovo temrinale con categoria **Prestashop** dalla sezione Pos / Gateway su *tinkl.i*.
+Crea un nuovo terminale con categoria **Prestashop** dalla sezione Pos / Gateway su *tinkl.it*.
 
 ### tramite PrestaShop
 
