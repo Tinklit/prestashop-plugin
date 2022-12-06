@@ -369,7 +369,8 @@ class Tinklit extends PaymentModule
         }
 
         $newOption = new PrestaShop\PrestaShop\Core\Payment\PaymentOption();
-        $newOption->setCallToActionText('Bitcoin & Lightning Network with tinkl.it')
+        $newOption->setLogo($this->_path .'views/img/logo_p.png');
+        $newOption->setCallToActionText('Bitcoin & Lightning Network with')
             ->setAction($this->context->link->getModuleLink($this->name, 'redirect', array(), true))
             ->setAdditionalInformation(
                 $this->context->smarty->fetch('module:tinklit/views/templates/hook/tinklit_intro.tpl')
