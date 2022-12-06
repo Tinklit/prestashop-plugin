@@ -369,7 +369,7 @@ class Tinklit extends PaymentModule
         }
 
         $newOption = new PrestaShop\PrestaShop\Core\Payment\PaymentOption();
-        $newOption->setLogo($this->_path .'views/img/logo_p.png');
+        $newOption->setLogo($this->_path .'views/img/logo_p.svg');
         $newOption->setCallToActionText('Bitcoin & Lightning Network with')
             ->setAction($this->context->link->getModuleLink($this->name, 'redirect', array(), true))
             ->setAdditionalInformation(
